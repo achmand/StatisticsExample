@@ -6,8 +6,8 @@ namespace CosineSimilarity
     {
         static void Main(string[] args)
         {
-            var vectorA = new double[] { 5, 0, 3, 0, 2, 0, 0, 2, 0, 0 };
-            var vectorB = new double[] { 3, 0, 2, 0, 1, 1, 0, 1, 0 ,1};
+            var vectorA = new double[] { 0, 0, 3,4,0};
+            var vectorB = new double[] {4,3,0,2,0};
             var cosineSimilarity = new CosineSimilarity();
 
             var result = cosineSimilarity.Compute(vectorA, vectorB);
